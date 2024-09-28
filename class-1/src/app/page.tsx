@@ -1,6 +1,6 @@
 
 export default function HelloWorld(){
   return(
-      <div className="heading">Hello World</div>
+      <h1 className="heading">Hello World</h1>
   )
 }
