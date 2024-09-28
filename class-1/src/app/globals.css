@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading{
+  font-size: 50pt;
+  color: blue;
+  font-weight: bold;
+  padding: 5px;
+  margin: 10px;
+}
