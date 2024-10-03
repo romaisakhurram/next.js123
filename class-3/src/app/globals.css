@@ -30,7 +30,7 @@
 
 .childContainer{
     width: fit-content;
-    height: 400px;
+    height: 600px;
     margin: 60px;
 }
 
@@ -59,7 +59,7 @@ h2 {
 
 .Footer-Button{
     display: flex;
-    margin-top: 45px;
+    margin-top: 50px;
     padding: 10px;
     justify-content: center;
     align-items: center;
