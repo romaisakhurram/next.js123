@@ -6,7 +6,7 @@ import Footer from "../Footer";
 export default function Portfolio() {
     return(
     <div>
-        <Header/>
+      <Header/>
 
       <div className="HomeContainer">
 
@@ -27,18 +27,18 @@ export default function Portfolio() {
         </div>
   
         <Image 
-           id="image"
-           src={pic} 
-           alt="image"
-           height={100} 
-           width={300}
-          />
+          id="image"
+          src={pic} 
+          alt="image"
+          height={100} 
+          width={300}
+        />
         
       </div>
 
-      <Footer/>
-      
-      </div>
-    );
+      <Footer/>  
+
+    </div>
+  );
 }
   
