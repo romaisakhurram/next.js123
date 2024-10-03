@@ -24,7 +24,7 @@
     justify-content: space-between;
     align-items: center;
     display: flex;
-    height: 1350;
+    height: 520px;
     width: 510;
 }
 
@@ -59,6 +59,7 @@ h2 {
 
 .Footer-Button{
     display: flex;
+    margin-top: 45px;
     padding: 10px;
     justify-content: center;
     align-items: center;
