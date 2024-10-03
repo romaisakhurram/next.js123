@@ -7,7 +7,9 @@ export default function Portfolio() {
     return(
     <div>
         <Header/>
+
       <div className="HomeContainer">
+
         <div className="childContainer">
          <h1>Hy,</h1>
          
@@ -33,7 +35,9 @@ export default function Portfolio() {
           />
         
       </div>
+
       <Footer/>
+      
       </div>
     );
 }
