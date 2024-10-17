@@ -1,0 +1,83 @@
+.parentContainer{
+    width: 1500;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+.childContainer{
+  height: 400px;
+  width: 280px;
+  border: 4px solid rgba(16, 25, 156, 0.774);
+  border-radius: 10px;
+  margin: 30px;
+  padding: 10px;
+  transition-duration: 0.5s;
+}
+
+.childContainer:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+  rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+  rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.imageContainer{
+ width: 100%;
+ height: 240px;
+ border: 2px;
+}
+
+.title{
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 10px;
+}
+
+.button {
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color:white;
+  border-radius: 30px;
+  border: 2px solid rgba(16, 25, 156, 0.774);
+  width: 100px;
+  height: 30px;
+  margin-top: 2px;
+  margin-left: 60px;
+}
+
+.button:hover {
+      background: rgba(16, 25, 156, 0.774);
+      color: white;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+}
+
+@media only screen and (max-width:250px){
+  .childContainer{
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width:400px) { 
+   .childContainer{
+    width: 60%;
+   }
+}
+
+@media only screen and (max-width:400px){
+  .imageContainer{
+    width: 100%;
+  }
+} 
+
+.bounce-in-right {
+	-webkit-animation: bounce-in-right 1.1s both;
+	animation: bounce-in-right 1.1s both;
+}
