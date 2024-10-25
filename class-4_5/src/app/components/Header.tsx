@@ -5,7 +5,7 @@ export default function Header () {
         <div className="Header">
                 <ul className="Header-Button">
                     <Link href="/"><li>Home</li></Link>
-                    <Link href="/About-Us"><li>About-Us</li></Link>
+                    <Link href="/Blog"><li>Blog</li></Link>
                     <Link href="/Contact-Us"><li>Contact-Us</li></Link>
                 </ul>
 
