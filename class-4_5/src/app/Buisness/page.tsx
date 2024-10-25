@@ -7,6 +7,7 @@ export default function Buisness () {
         <div>
             <Image  id="Picture" src={buisness} alt="image"/>
             <h1 className="h1">**How To Make Money Online For Beginners**</h1>
+            
             <p  className="paragraph">Artificial Intelligence (AI) has opened up new horizons for handling images. AI’s ability to recognize, generate, and manipulate images is advancing in ways that transform fields like digital art, e-commerce, healthcare, and entertainment.</p>
 
             <h1  className="h1">**1. Image Generation (Text-to-Image Models)**</h1>
