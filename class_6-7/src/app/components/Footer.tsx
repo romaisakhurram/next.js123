@@ -7,6 +7,7 @@ import facebook from "@/app/Images/facebook.png"
 import twitter from "@/app/Images/twitter.png"
 import linkedin from  "@/app/Images/Linked In.png"
 import shape from "@/app/Images/Shape.png"
+import Link from "next/link"
 
 
 export default function Footer () {
@@ -36,9 +37,9 @@ export default function Footer () {
         <ul className="Footer-SocialMedia">
             <li className="Heading">Social Media </li>
             <ul className="SocialImages">
-            <li><Image src={facebook} alt="facebook"/></li>
-            <li><Image src={twitter} alt="twitter"/></li>
-            <li><Image src={linkedin} alt="linkedin"/></li>
+            <li><Link href="https://facebook.com/RumaisaK"><Image src={facebook} alt="facebook"/></Link></li>
+            <li><Link href=""><Image src={twitter} alt="twitter"/></Link></li>
+            <li><Link href="https://linkedin.com/in/romaisa-khurram123"><Image src={linkedin} alt="linkedin"/></Link></li>
             <li><Image src={shape} alt="shape"/></li>
             </ul>
         </ul>
@@ -46,7 +47,7 @@ export default function Footer () {
 
         <hr />
 
-        <p className="description">2019 All Right Reserved</p>
+        <p className="description">&copy; 2019 All Right Reserved</p>
         
     </div>
     
