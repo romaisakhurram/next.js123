@@ -37,8 +37,8 @@ export default function Footer () {
         <ul className="Footer-SocialMedia">
             <li className="Heading">Social Media </li>
             <ul className="SocialImages">
-            <li><Link href="https://facebook.com/RumaisaK"><Image src={facebook} alt="facebook"/></Link></li>
-            <li><Link href=""><Image src={twitter} alt="twitter"/></Link></li>
+            <li><Link href="https://https://facebook.com"><Image src={facebook} alt="facebook"/></Link></li>
+            <li><Link href="https://https://twitter.com"><Image src={twitter} alt="twitter"/></Link></li>
             <li><Link href="https://linkedin.com/in/romaisa-khurram123"><Image src={linkedin} alt="linkedin"/></Link></li>
             <li><Image src={shape} alt="shape"/></li>
             </ul>
