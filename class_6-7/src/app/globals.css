@@ -35,15 +35,61 @@
 .h1{
   font-size: 64px;
   font-family: Roboto;
+  font-weight: light;
   color: #BDBDBD;
-  margin-left: 60%;
+  margin-left: 40%;
 }
 
 .h2{
   font-size: 60px;
+  font-family: Roboto;
   font-weight: bold;
   color: #1E1E1E;
-  margin-left: 60%;
+  margin-left: 40%;
+}
+
+.rightButton {
+  margin-top: 50%;
+  margin-left: 5%;
+  background-color: #BDBDBD;
+  width: 52.95px;
+  height: 53px;
+  border: 0.5px solid rgb(173, 171, 171);
+}
+
+.leftButton {
+  margin-top: 50%;
+  margin-left: 35%;
+  background-color: #FFFFFF;
+  width: 52.95px;
+  height: 53px;
+  border: 0.5px solid rgb(173, 171, 171);
+}
+
+.imageContainer{
+  background-image: url(./Images/Rectangle1.png);
+  background-size: cover;
+  width: 770px;
+  height: 829px;
+  margin-left: 30%;
+  margin-right: 5%;
+}
+
+#slideImage{
+  margin-left: 40%;
+  margin-top: 60%;
+}
+
+.h3{
+  margin-top: 119%;
+  background-color: white;
+  font-family: Roboto;
+  font-family: 10px;
+  color: #969595;
+  display: inline-block;
+  width: 30%;
+  height: 7%;
+  padding: 10px;
 }
 
 #image1{
@@ -61,26 +107,6 @@
   margin-left: 60%;
 }
 
-.imageContainer{
-  background-image: url(./Images/Rectangle1.png);
-  background-size: cover;
-  width: 770px;
-  height: 829px;
-  margin-left: 40%;
-  margin-right: 5%;
-}
-
-.h3{
-   margin-top: 145%;
-   background-color: white;
-   font-family: Roboto;
-   font-family: 10px;
-   color: #969595;
-   display: inline-block;
-   width: 30%;
-   height: 7%;
-   padding: 15px;
-}
 
 .AboutContainer{
   display: flex;
@@ -244,7 +270,7 @@ input , textarea{
 
 .Footer-Contact{
   color: white;
-  margin-top: 5%;
+  margin-top: 2%;
   margin-left: 10%;
 }
 

@@ -29,9 +29,9 @@ export default function Footer () {
 
         <ul className="Footer-Contact">
             <li>Contacts</li> <br />
-            <li className="location"><Image src={location} alt="locationImage"/><fieldset>1234 Sample Street Austin Texas 78704</fieldset></li> <br />
-            <li className="phone"><Image src={phone} alt="phoneImage"/><fieldset>512.333.2222</fieldset></li> <br />
-            <li className="message"><Image src={message} alt="messageImage"/><fieldset>sampleemail@gmail.com</fieldset></li>
+            <li className="location"><Image src={location} alt="locationImage"/><p>1234 Sample Street Austin Texas 78704</p></li> <br />
+            <li className="phone"><Image src={phone} alt="phoneImage"/><p>512.333.2222</p></li> <br />
+            <li className="message"><Image src={message} alt="messageImage"/><p>sampleemail@gmail.com</p></li>
         </ul>
 
         <ul className="Footer-SocialMedia">

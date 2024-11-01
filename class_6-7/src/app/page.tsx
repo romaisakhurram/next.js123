@@ -1,4 +1,5 @@
 import Image from "next/image"
+import slideImage from "@/app/Images/slide-numbers.png"
 import Rectangle2 from "@/app/Images/Rectangle 2.png"
 import Rectangle3 from "@/app/Images/Rectangle 3.png"
 import Rectangle4 from "@/app/Images/Rectangle 4.png"
@@ -22,11 +23,14 @@ export default function Main () {
         <div>
           <h1 className="h1">PROJECT</h1> 
           <h2 className="h2">Lorum</h2>
+          <button className="leftButton"> ← </button>
+          <button className="rightButton"> → </button>
+          <Image src={slideImage} alt="image" width={141.28} height={53}  id="slideImage"/>
         </div>
 
-          <div className="imageContainer">
-           <h3 className="h3">View Project </h3>
-          </div>
+        <div className="imageContainer">
+          <h3 className="h3">View Project → </h3>
+        </div>
 
       </div>
 
@@ -84,7 +88,7 @@ export default function Main () {
       </div>
 
       <div className="Contact">
-        <h1 className="heading">Our Project</h1>
+        <h1 className="heading">Contact Us</h1>
 
         <div className="ContactContainer">
 
