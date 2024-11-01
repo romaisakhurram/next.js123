@@ -11,6 +11,7 @@
     font-family: Roboto;
     color: #BDBDBD;
     margin-left: 10%;
+    margin-top: 10%;
 }
 
 .h2{
@@ -27,7 +28,7 @@
     font-weight: bold;
     color: #333333;
     margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .description{
@@ -35,7 +36,7 @@
     font-family: Roboto;
     color: #333333;
     margin-left: 10%;
-    margin-top: 2%;
+    margin-top: 10%;
 }
 
 .button{
@@ -46,10 +47,10 @@
     margin-left: 10%;
     width: 221.81px;
     height: 71px;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 .ImageContainer{
-    height : 501; 
-    width : 719;
+    height: 600px;
+    width: 1300px;
 }

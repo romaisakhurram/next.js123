@@ -22,7 +22,7 @@ export default function Contact () {
             </div>
 
             <div className="ImageContainer">
-            <Image src={image14} alt="image" />
+            <Image src={image14} alt="image" width={1319} height={501} /><br />
             </div>
 
 

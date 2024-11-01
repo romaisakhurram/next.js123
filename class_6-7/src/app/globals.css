@@ -250,7 +250,9 @@ input , textarea{
   background-color: #333333;
   height: 417px;
   width: 1300;
+  margin-top: 10%;
 }
+
 .Footer-child{
   font-size: 16px;
   font-family: Roboto;
@@ -270,7 +272,7 @@ input , textarea{
 
 .Footer-Contact{
   color: white;
-  margin-top: 2%;
+  margin-top: 5%;
   margin-left: 10%;
 }
 
