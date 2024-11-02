@@ -9,7 +9,7 @@ export default function Travel () {
             
             <h1 className="h1">How To Travel The World? Best Guide</h1>
             
-            <p className="paragraph">An API is a set of rules and protocols that allows different software applications to communicate and interact. In the context of web development, APIs act as a bridge that enables websites or web applications to request and exchange data from external systems, services, or databases.</p>
+            <p className="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odit, nemo debitis nihil ratione necessitatibus modi adipisci error quis harum fugiat consectetur laboriosam porro accusantium quibusdam soluta blanditiis. Mollitia, sit!</p>
         
         </div>
     )

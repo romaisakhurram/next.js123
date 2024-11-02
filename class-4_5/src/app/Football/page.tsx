@@ -9,7 +9,7 @@ export default function Football () {
 
             <h1 className="h1">**Liverpool FC**</h1>
 
-            <p className="paragraph">An API is a set of rules and protocols that allows different software applications to communicate and interact. In the context of web development, APIs act as a bridge that enables websites or web applications to request and exchange data from external systems, services, or databases.</p>
+            <p className="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam non cupiditate dignissimos labore quas. Quas assumenda, possimus, perferendis provident maiores recusandae alias sint deleniti harum ab, sequi ut perspiciatis voluptate?</p>
         
         </div>
     )

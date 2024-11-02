@@ -8,7 +8,7 @@ export default function  Japan () {
 
             <h1 className="h1">**Japan Itineraries: 5 Top Routes Of Japan**</h1>
             
-            <p className="paragraph">An API is a set of rules and protocols that allows different software applications to communicate and interact. In the context of web development, APIs act as a bridge that enables websites or web applications to request and exchange data from external systems, services, or databases.</p>
+            <p className="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic tempore saepe repellat officiis ratione, neque pariatur non officia vitae corporis. Accusamus labore impedit doloribus. Officiis quae excepturi sint dignissimos quibusdam?</p>
         
         </div>
     )
