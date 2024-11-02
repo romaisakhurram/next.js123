@@ -8,81 +8,31 @@
   
 .ContactHeading{
     font-size: 60px;
-    text-align: center;
     margin-top: 20px;
+    margin-left: 5%;
     color: rgba(16, 25, 156, 0.774); ;
 }
   
 .Heading{
-    font-size: 40px;
+    font-size: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgba(16, 25, 156, 0.774);
 }
 
 .contactInformation{
-    padding: 5px;
-    text-align: center; 
+    padding: 5px; 
     margin-top: 5%;
-    font-size: 30px;
+    margin-left: 5%;
+    font-size: 20px;
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.ContactForm{
-    color: rgba(16, 25, 156, 0.774);
-    font-size: 30px;
-    text-align: center;
-}
-
-.Form{
-    border: rgba(16, 25, 156, 0.774) 5px solid;
-    justify-content: center;
-    height: 50%;
-    width: 50%;
-    margin: 5%;
-    align-items: center;
-    background-color: white;
-    padding: 15px;
-    color: black;
-    font-size: 17px;
-}
-  
-
-#input{
-    width: 90%; /* Responsive width */
-    padding: 5px;
-    margin: 5px ;
-    box-sizing: border-box;
-    border: 2px solid rgba(16, 25, 156, 0.774);
-    border-radius: 4px;
-    font-size: 16px;
-    color: #333; 
-    font-family: 'Arial', sans-serif;
-    background-color: rgb(218, 235, 229);
-}
-  
 .Description{
+    margin-left: 5%;
     color: black;
-    font-size: 20px;
-    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-  
-.submitButton{
-    background-color: rgba(16, 25, 156, 0.774);
-    color: #f5ebeb;
-    border-radius: 200px;
-    font-size: 15px;
-    padding: 5px;
-    margin-left: 40%;
-    width: 80px;
-    height: 30px;
-}
-  
-.submitButton:hover{
-    background-color: black;
-    color: white;
-}
-
 
   
 @media only screen and (max-width: 700px) {
@@ -95,21 +45,5 @@
         font-size: 16px;
         margin-left: 10px; /* Reduce margin for smaller screens */
     }
-    .Form {
-        width: 100%;
-        border-width: 2px; /* Reduce border thickness on mobile */
-        margin: 20px auto; /* Center the form */
-    }
-    .Description {
-        font-size: 14px;
-        margin-left: 10px; /* Reduce margin for smaller screens */
-    }
-    .Heading {
-        font-size: 18px;
-        text-align: center; /* Center align headings on mobile */
-    }
-    .submitButton {
-        font-size: 12px;
-        width: 80px; /* Smaller button on mobile */
-    }
+   
 }

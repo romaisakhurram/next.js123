@@ -18,25 +18,6 @@ export default function Contact () {
              <p>Address : 123 street block 2 </p>
             
             </div>
-
-            <form className={style.Form}>
-                
-                <h1 className={style.ContactForm}>Contact-Form</h1>
-                <label className={style.name}>Name: </label>
-               <input type="text"  id={style.input} />
-                <br /> <br />
-               
-               <label  className={style.email}>E-mail: </label>
-               <input type="email" id={style.input}/>
-               <br /> <br /> 
-               
-               <label  className={style.message}>Message:</label>
-               <textarea typeof="message" id={style.input} />
-                <br /> <br /> 
-               
-               <button className={style.submitButton}>Submit</button>
-            
-            </form>
         
         </div>
     );

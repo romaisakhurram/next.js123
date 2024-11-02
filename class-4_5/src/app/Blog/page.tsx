@@ -19,16 +19,16 @@ type Idata = {
 const data : Idata[] = [
   {
     title: "Top 19 US agency in powerhouses", 
-    description:"How to Make Money Online For Beginners: 7 Ways To Make Money Online How To Make Money Online For Beginners?..." , 
+    description:"Unveiling the Best: Top 19 Us Travel Agency Powerhouses The US travel agency sector is boomong. It offers many services..." , 
     Image: agency , 
     link: "/Agency"
   },
 
   {
     title: "How To Make Money Online For Beginners" , 
-    description: "Unveiling the Best: Top 19 Us Travel Agency Powerhouses The US travel agency sector is boomong. It offers many services..." ,
+    description: "How to Make Money Online For Beginners: 7 Ways To Make Money Online How To Make Money Online For Beginners?..." ,
     Image: buisness ,
-     link: "/Buisness"
+    link: "/Buisness"
   }, 
 
   {
