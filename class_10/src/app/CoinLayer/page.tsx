@@ -20,9 +20,11 @@ export default function CoinLayer() {
         <div className="CoinMarket">
             <h1 className="Heading">Crypto Currency Coin</h1>
             <hr />
+            
             <br />
             BTC : {data?.rates.BTC}
             <hr />
+
             <br />
             BNB : {data?.rates.BNB}
             <hr />
@@ -46,6 +48,7 @@ export default function CoinLayer() {
             <br />
             BAT : {data?.rates.BAT}
             <hr />
+
         </div>
     );
 }
