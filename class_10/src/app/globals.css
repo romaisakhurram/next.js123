@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #8778a7;
+  width: 1350px;
+  background-image: url(./Image.jpg);
+  background-size: cover;
+}
+
+.Heading{
+  color: #eff;
+  font-size: 37px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.CoinMarket{
+  color: #eff;
+  margin-left: 70%;
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+hr{
+  size : 30%;
+  border: 1px solid #eff;
+}
