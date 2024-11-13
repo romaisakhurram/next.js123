@@ -20,11 +20,10 @@ body{
   margin-left: 70%;
   font-size: 20px;
   margin-top: 5%;
-  box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
   border-left: 1px solid #eff;
   border-right: 1px solid #eff;
   border-top: 1px solid #eff;
   border-bottom: 1px solid #eff;
-  padding: 20px;
+  padding: 10px;
 }
 
