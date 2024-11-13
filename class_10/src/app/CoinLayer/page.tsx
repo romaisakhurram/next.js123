@@ -1,11 +1,10 @@
 "use client"
 import {useState , useEffect} from "react";
-import { json } from "stream/consumers";
 
 
 export default function CoinLayer() {
 
-        const  API_Key ="6aadfdae8972346bb4fc6e07075e3ae2";
+        const  API_Key ="72953684b78bd31c5daa54e0d3c636d8";
         const  [data , setData] = useState<any>(null);
 
         useEffect (() => {
