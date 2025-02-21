@@ -64,8 +64,8 @@ export default function Blog() {
   return (
      <div className={style.parentContainer}>
       <h1 className={style.Heading}>Blogs</h1>
-      {data.map ((Idata) =>(
-      <div className={style.childContainer}>
+      {data.map ((Idata , index) =>(
+      <div key={index} className={style.childContainer}>
         <div className={style.imageContainer}>
          <Image src={Idata.Image} alt={Idata.title} />
         </div>

@@ -8,8 +8,7 @@ export default function  Main() {
 
       <div className="GrandChild">
 
-       <h1 className="h1 tracking-in-expand-fwd ">BLOG   <br /> 
-          Website 
+       <h1 className="h1 tracking-in-expand-fwd ">Blog Website 
        </h1>
        <p className="description tracking-in-expand-fwd ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi eaque amet corrupti cumque vero exercitationem ipsum impedit consequuntur ullam, placeat, neque ut distinctio eligendi dolorum ducimus maxime quas perspiciatis?</p> 
 
