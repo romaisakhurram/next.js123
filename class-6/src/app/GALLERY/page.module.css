@@ -1,0 +1,27 @@
+.GalleryContainer{
+    height: 800px;
+    width: 1300px;
+}
+
+.h1{
+    font-size: 64px;
+    font-family: Roboto;
+    color: #BDBDBD;
+    margin-left: 10%;
+
+}
+
+.h2{
+    font-size: 64px;
+    font-family: Roboto;
+    color: #333333;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.imageContainer{
+  width: 1300px;
+  display: flex;
+  gap: 70px;
+  margin-left: 10%;
+}

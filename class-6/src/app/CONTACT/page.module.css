@@ -1,0 +1,56 @@
+.ContactContainer{
+    height: 600px;
+    width: 1300;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.h1{
+    font-size: 64px;
+    font-family: Roboto;
+    color: #BDBDBD;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.h2{
+    font-size: 64px;
+    font-family: Roboto;
+    color: #333333;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.h3{
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #333333;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.description{
+    font-size: 16px;
+    font-family: Roboto;
+    color: #333333;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.button{
+    background-color: #333333;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+    margin-left: 10%;
+    width: 221.81px;
+    height: 71px;
+    margin-top: 15%;
+}
+
+.ImageContainer{
+    height: 600px;
+    width: 1300px;
+}

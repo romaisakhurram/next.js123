@@ -1,0 +1,60 @@
+.ProjectContainer{
+    height: 1800px;
+    width: 1300px;
+}
+
+
+.h1{
+    font-size: 64px;
+    font-family: Roboto;
+    color: #BDBDBD;
+    margin-left: 10%;
+
+}
+
+.h2{
+    font-size: 64px;
+    font-family: Roboto;
+    color: #333333;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.childContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 435px;
+    background-color: #FBFBFB;
+    margin-left: 10%;
+}
+
+.title{
+    font-size: 64px;
+    font-family: Roboto;
+    color:#BDBDBD;
+    margin-left: 5%;
+}
+
+.description{
+    font-family: Roboto;
+    margin-top: 10%;
+    font-size: 16px;
+    margin-left: 5%;
+}
+
+.Button {
+    padding: 30px;
+    font-size: 12px;
+    color: #BDBDBD;
+    background-color: #333;
+    cursor: pointer;
+    margin-left: 10%;
+    width:222px;
+    height: 71px;
+}
+  
+.Button:hover {
+    background-color: #ada7a7;
+}
+  
