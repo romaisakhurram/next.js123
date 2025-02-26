@@ -28,7 +28,7 @@ export default function Projects () {
              <div>
              <h1 className={style.title}>Sample Project 2 </h1>
               <p className={style.description}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen boo</p>
-              <button className="Button"><Link href="/SampleProject1">VIEW MORE</Link></button>
+              <button className="Button"><Link href="/SampleProject2">VIEW MORE</Link></button>
               </div>
             </div>
             <br /> <br />
@@ -38,7 +38,7 @@ export default function Projects () {
              <div>
              <h1 className={style.title}>Sample Project 3 </h1>
               <p className={style.description}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen boo</p>
-              <button className="Button"><Link href="/SampleProject1">VIEW MORE</Link></button>
+              <button className="Button"><Link href="/SampleProject3">VIEW MORE</Link></button>
               </div>
             </div>
             <br /> <br />

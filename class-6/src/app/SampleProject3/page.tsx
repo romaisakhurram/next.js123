@@ -1,14 +1,14 @@
-import style from "@/app/SampleProject1/page.module.css"
+import style from "@/app/SampleProject3/page.module.css"
 import image33 from "@/app/Images/image 33 (1).png"
 import image34 from "@/app/Images/image 34 (1).png"
 import image35 from "@/app/Images/image 35.png"
 import  Image  from "next/image"
 
 
-export default function SampleProject1 () {
+export default function SampleProject3 () {
     return (
          <div className={style.SampleProjectContainer}>
-              <h1 className={style.h1}>Sample Project 1</h1>
+              <h1 className={style.h1}>Sample Project 3</h1>
               <div className={style.Image1}>
                 <Image src={image33} alt="image" width={1170} height={435}/>
               </div>

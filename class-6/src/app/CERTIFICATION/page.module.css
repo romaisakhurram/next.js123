@@ -18,3 +18,37 @@
     margin-left: 10%;
     height: 435px;
 }
+
+@media screen and (max-width: 768px){
+    .CertificationConatiner{
+        height: auto;
+        width: 100%;
+    }
+
+    .h1{
+        font-size: 32px;
+        margin-left: 3%;
+    }
+
+    .h2{
+        font-size: 32px;
+        margin-left: 3%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .CertificationConatiner{
+        height: auto;
+        width: 100%;
+    }
+
+    .h1{
+        font-size: 28px;
+        margin-left: 3%;
+    }
+
+    .h2{
+        font-size:28px;
+        margin-left: 3%;
+    }
+}

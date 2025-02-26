@@ -25,3 +25,43 @@
   gap: 70px;
   margin-left: 10%;
 }
+
+/* Responsive styles for screens with a maximum width of 768px (tablets) */
+@media (max-width: 768px) {
+    .GalleryContainer {
+        height: auto;
+        width: 100%;
+    }
+
+    .h1, .h2 {
+        font-size: 32px;
+        margin-left: 10%;
+    }
+
+    .imageContainer {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        margin-left: 30%;
+    }
+}
+
+/* Responsive styles for screens with a maximum width of 400px (mobile devices) */
+@media (max-width: 400px) {
+    .GalleryContainer {
+        height: auto;
+        width: 100%;
+    }
+
+    .h1, .h2 {
+        font-size: 24px;
+        margin-left: 5%;
+    }
+
+    .imageContainer {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        margin-left: 20%;
+    }
+}

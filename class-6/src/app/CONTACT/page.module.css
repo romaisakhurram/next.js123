@@ -54,3 +54,61 @@
     height: 600px;
     width: 1300px;
 }
+
+/* Responsive styles for screens with a maximum width of 768px (tablets) */
+@media (max-width: 768px) {
+    .ContactContainer {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .h1, .h2, .h3, .description {
+        font-size: 32px;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .button {
+        width: 30%;
+        height: 40%;
+        margin-left: 10%;
+        margin-top: 10%;
+        font-size: 14px;
+    }
+
+    .ImageContainer {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Responsive styles for screens with a maximum width of 400px (mobile devices) */
+@media (max-width: 400px) {
+    .ContactContainer {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .h1, .h2, .h3, .description {
+        font-size: 24px;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .button {
+        width: 40%;
+        height: 40%;
+        margin-left: 5%;
+        margin-top: 10%;
+        font-size: 12px;
+    }
+
+    .ImageContainer {
+        width: 100%;
+        height: auto;
+    }
+}

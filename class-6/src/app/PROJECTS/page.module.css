@@ -58,3 +58,72 @@
     background-color: #ada7a7;
 }
   
+/* Responsive styles for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    .ProjectContainer {
+        height: auto;
+        width: 100%;
+    }
+
+    .h1, .h2, .title {
+        font-size: 32px;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .childContainer {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .description {
+        font-size: 14px;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .Button {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        padding: 15px;
+        font-size: 10px;
+    }
+}
+
+/*  Responsive styles for screens with a maximum width of 400px */ 
+@media (max-width: 400px) {
+    .ProjectContainer {
+        height: auto;
+        width: 100%;
+    }
+
+    .h1, .h2, .title {
+        font-size: 32px;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .childContainer {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .description {
+        font-size: 14px;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    
+    .Button {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        padding: 15px;
+        font-size: 10px;
+    }
+}
