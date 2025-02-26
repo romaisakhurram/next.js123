@@ -12,12 +12,16 @@
 
 .Image1{
    margin-left: 5%;
+   width: 80%;
+   height: 100%;
 }
 
 .Image2{
     margin-left: 5%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    width: 90%;
+   height: 100%;
 }
 
 .description{
@@ -29,6 +33,8 @@
 
 .Image3{
    margin-left: 5%;
+   width: 80%;
+   height: 100%;
 }
 
 /* Responsive styles for screens with a maximum width of 768px (tablets) */
