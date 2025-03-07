@@ -4,7 +4,6 @@ export default function Contact () {
     const comment = "This is a contact page."; // ❌ Remove if unused
     return (
         <div className={style.Contact}>
-            <p>{comment}</p>
             <h1 className={style.ContactHeading}> Contact Us:</h1>
             <p className={style.Description}>
                 We’d love to hear from you! Whether you have a question about our services or just want to say hello, feel free to reach out.
